@@ -1,0 +1,78 @@
+
+body
+{
+    background-image: url("../images/candy.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* margin: auto; */
+    
+    margin-top: -1%;
+    width: 60%;
+    height: 40vw;
+    transform: rotate(-17deg)
+
+
+
+}
+
+#title
+{
+   visibility: visible;
+}
+#top
+{
+    visibility: hidden;
+    text-align: center; 
+    font-size: 22px;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+#question
+{
+    font-size: 35px;
+    width: 50%;
+    margin-left: 25%;
+}
+#qHolder
+{
+    visibility: hidden;     
+    margin-top: 5%; 
+    text-align: center;
+    margin-left: 10%;
+    font-size: 30px;
+
+
+}
+
+#start
+{
+    font-size: 30px;
+    margin-top: 12.5%;
+    margin-left: 33%;
+    width: 50%;
+    background-color: lime;
+    border: 3px solid black;
+
+}
+
+#start:hover
+{
+    background-color: limegreen;
+}
+#start:focus
+{
+    background-color: green;
+}
+
+span
+{
+     font-size: 22px;
+}
+
+span:hover
+{
+    border-radius: 10px;
+    border: 3px solid black;
+
+}
